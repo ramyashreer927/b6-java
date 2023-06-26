@@ -4,13 +4,7 @@ pipeline {
     maven 'm1'
     }
     stages {
-  stage('clone') {
-    steps {
-      checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'ssh-key-fot-git1', url: 'https://github.com/Vikas-Anjanappa/b6-java.git']])
-    }
-  }
-
-  stage('build') {
+    stage('build') {
     steps {
       sh 'mvn clean install'
     }
