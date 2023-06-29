@@ -1,1 +1,1 @@
-# b6-java B2
+# b6-java B6
