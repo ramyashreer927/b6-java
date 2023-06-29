@@ -1,1 +1,1 @@
-# b6-java B6 batch 111
+# b6-java
